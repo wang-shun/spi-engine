@@ -19,7 +19,7 @@ public interface SpiBase<T, R> {
     List<R> invoke(T bizContext);
 
     /**
-     * spi 执行时的配置
+     * functionpoint 执行时的配置
      *
      * @return
      */

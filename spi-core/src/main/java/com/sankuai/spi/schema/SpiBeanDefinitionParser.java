@@ -20,7 +20,7 @@ public class SpiBeanDefinitionParser extends AbstractSingleBeanDefinitionParser 
 
         String id = element.getAttribute("id");
         if (!StringUtils.hasText(id)) {
-            throw new SpiException("spi id must not be empty.");
+            throw new SpiException("functionpoint id must not be empty.");
         }
 
         if (parserContext.getRegistry().containsBeanDefinition(id)) {
@@ -30,7 +30,7 @@ public class SpiBeanDefinitionParser extends AbstractSingleBeanDefinitionParser 
 
         String target = element.getAttribute("target");
         if (!StringUtils.hasText(target)) {
-            throw new SpiException("spi must specify an interface");
+            throw new SpiException("functionpoint must specify an interface");
         }
         builder.addPropertyValue("target", target);
 

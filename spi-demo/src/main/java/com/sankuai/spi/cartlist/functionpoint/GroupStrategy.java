@@ -1,4 +1,4 @@
-package com.sankuai.spi.cartlist.spi;
+package com.sankuai.spi.cartlist.functionpoint;
 
 import com.sankuai.spi.SpiBase;
 import com.sankuai.spi.cartlist.CartListSDTO;

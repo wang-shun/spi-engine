@@ -7,7 +7,7 @@ import com.sankuai.spi.cartlist.CartListSDTO;
 import com.sankuai.spi.cartlist.domain.Item;
 import com.sankuai.spi.cartlist.SpiContext;
 import com.sankuai.spi.cartlist.domain.QueryStrategyEnum;
-import com.sankuai.spi.cartlist.spi.QueryItem;
+import com.sankuai.spi.cartlist.functionpoint.QueryItem;
 
 import java.util.List;
 

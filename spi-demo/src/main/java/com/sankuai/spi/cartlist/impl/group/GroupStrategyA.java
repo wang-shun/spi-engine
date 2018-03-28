@@ -3,7 +3,7 @@ package com.sankuai.spi.cartlist.impl.group;
 import com.sankuai.spi.SpiConfig;
 import com.sankuai.spi.annotation.BizSpi;
 import com.sankuai.spi.cartlist.CartListSDTO;
-import com.sankuai.spi.cartlist.spi.GroupStrategy;
+import com.sankuai.spi.cartlist.functionpoint.GroupStrategy;
 
 import java.util.List;
 

@@ -1,7 +1,7 @@
 package com.sankuai.spi.cartlist;
 
-import com.sankuai.spi.cartlist.spi.GroupStrategy;
-import com.sankuai.spi.cartlist.spi.QueryItem;
+import com.sankuai.spi.cartlist.functionpoint.GroupStrategy;
+import com.sankuai.spi.cartlist.functionpoint.QueryItem;
 import org.springframework.stereotype.Component;
 
 import javax.annotation.Resource;
