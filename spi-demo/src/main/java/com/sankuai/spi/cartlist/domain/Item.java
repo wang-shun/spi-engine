@@ -1,6 +1,6 @@
-package com.sankuai.spi;
+package com.sankuai.spi.cartlist.domain;
 
-public class InSDTO {
+public class Item {
 
     private String name;
 
