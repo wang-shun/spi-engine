@@ -29,7 +29,7 @@ public class AppSpiTest
     }
 
     /**
-     * Rigourous SpiTest :-)
+     * Rigourous CartListTest :-)
      */
     public void testApp()
     {
