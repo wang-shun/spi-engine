@@ -1,0 +1,15 @@
+logs
+out
+*.iml
+.project
+.classpath
+.settings
+*/target
+*/.settings
+*/.classpath
+*/.project
+*/*.iml
+.idea
+target
+.idea/inspectionProfiles/
+.idea/workspace.xml
