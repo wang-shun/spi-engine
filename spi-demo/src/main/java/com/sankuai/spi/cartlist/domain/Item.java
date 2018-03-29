@@ -1,5 +1,8 @@
 package com.sankuai.spi.cartlist.domain;
 
+/**
+ * An item
+ */
 public class Item {
 
     private String name;

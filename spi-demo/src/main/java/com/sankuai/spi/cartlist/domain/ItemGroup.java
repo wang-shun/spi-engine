@@ -2,6 +2,9 @@ package com.sankuai.spi.cartlist.domain;
 
 import java.util.List;
 
+/**
+ * A group of item
+ */
 public class ItemGroup {
 
     List<Item> itemList;

@@ -6,11 +6,14 @@ import com.sankuai.spi.annotation.BizSpi;
 import com.sankuai.spi.cartlist.CartListSDTO;
 import com.sankuai.spi.cartlist.domain.Item;
 import com.sankuai.spi.cartlist.SpiContext;
-import com.sankuai.spi.cartlist.domain.QueryStrategyEnum;
+import com.sankuai.spi.cartlist.domain.strategy.QueryStrategyEnum;
 import com.sankuai.spi.cartlist.functionpoint.QueryItem;
 
 import java.util.List;
 
+/**
+ * Query from source B, which returns 100 items.
+ */
 @BizSpi
 public class QueryItemFromSourceB implements QueryItem{
 

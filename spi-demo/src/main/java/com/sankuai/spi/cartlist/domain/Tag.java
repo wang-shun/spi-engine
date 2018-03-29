@@ -1,15 +1,11 @@
 package com.sankuai.spi.cartlist.domain;
 
-public enum QueryStrategyEnum {
-    QueryFromSourceA("queryFromSourceA"),
-    QueryFromSourceB("queryFromSourceB"),;
+public class Tag {
+    private String name;
 
-
-    QueryStrategyEnum(String name) {
+    public Tag(String name) {
         this.name = name;
     }
-
-    private String name;
 
     public String getName() {
         return name;

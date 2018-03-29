@@ -14,6 +14,8 @@
 
     <spi:node id="group" target="com.sankuai.spi.cartlist.functionpoint.GroupStrategy"/>
 
+    <spi:node id="tag" target="com.sankuai.spi.cartlist.functionpoint.TagStrategy"/>
+
     <context:component-scan base-package="com.sankuai.spi"/>
 
 </beans>

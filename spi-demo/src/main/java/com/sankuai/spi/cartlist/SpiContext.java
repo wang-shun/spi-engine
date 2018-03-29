@@ -1,10 +1,15 @@
 package com.sankuai.spi.cartlist;
 
+/**
+ * An spi implementation selector.
+ */
 public class SpiContext {
 
     private String queryStrategy;
 
     private String groupStrategy;
+
+    private String tagStrategy;
 
     public String getQueryStrategy() {
         return queryStrategy;
@@ -20,5 +25,13 @@ public class SpiContext {
 
     public void setGroupStrategy(String groupStrategy) {
         this.groupStrategy = groupStrategy;
+    }
+
+    public String getTagStrategy() {
+        return tagStrategy;
+    }
+
+    public void setTagStrategy(String tagStrategy) {
+        this.tagStrategy = tagStrategy;
     }
 }
