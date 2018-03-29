@@ -1,6 +1,5 @@
 package com.sankuai.spi.cartlist.impl.tag;
 
-import com.google.common.collect.Lists;
 import com.sankuai.spi.SpiConfig;
 import com.sankuai.spi.annotation.BizSpi;
 import com.sankuai.spi.cartlist.CartListSDTO;
