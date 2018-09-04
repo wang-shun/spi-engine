@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pipelines xmlns="http://www.sankuai.com/schema/spi-pipeline"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="http://www.sankuai.com/schema/spi-pipeline
+           http://www.sankuai.com/schema/spi-pipeline.xsd ">
+
+    <pipeline bizType="listA">
+        <valve target="com.sankuai.spi.cartlist.functionpoint.GroupStrategy"/>
+        <valve target="com.sankuai.spi.cartlist.functionpoint.QueryItem"/>
+    </pipeline>
+    <pipeline bizType="listB">
+        <valve target="com.sankuai.spi.cartlist.functionpoint.QueryItem"/>
+    </pipeline>
+
+</pipelines>

@@ -13,6 +13,7 @@
 
     <modules>
         <module>spi-core</module>
+        <module>spi-pipeline</module>
         <module>spi-demo</module>
     </modules>
 

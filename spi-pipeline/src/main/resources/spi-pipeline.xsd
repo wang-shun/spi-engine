@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+            xmlns="http://www.sankuai.com/schema/spi-pipeline"
+            targetNamespace="http://www.sankuai.com/schema/spi-pipeline" elementFormDefault="qualified">
+    <xsd:element name="pipelines">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[所有的pipeline配置]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:complexType>
+            <xsd:sequence maxOccurs="unbounded">
+                <xsd:element name="pipeline" type="pipelineType"/>
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    <xsd:complexType name="pipelineType">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[一个管道配置]]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:sequence maxOccurs="unbounded">
+            <xsd:element name="valve" type="valveType"/>
+        </xsd:sequence>
+        <xsd:attribute name="bizType" type="xsd:string" use="required"/>
+    </xsd:complexType>
+    <xsd:complexType name="valveType">
+        <xsd:annotation>
+            <xsd:documentation><![CDATA[单个Valve]]]></xsd:documentation>
+        </xsd:annotation>
+        <xsd:attribute name="target" type="xsd:string" use="required"/>
+    </xsd:complexType>
+</xsd:schema>

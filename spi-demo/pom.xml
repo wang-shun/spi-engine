@@ -7,7 +7,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.sankuai.spi</groupId>
     <artifactId>spi-demo</artifactId>
     <version>1.0.1</version>
     <packaging>jar</packaging>
@@ -17,6 +16,7 @@
 
     <properties>
         <spi.core.version>1.0.1</spi.core.version>
+        <spi.pipeline.version>1.0.1</spi.pipeline.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -26,6 +26,12 @@
             <artifactId>spi-core</artifactId>
             <version>${spi.core.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.sankuai.spi</groupId>
+            <artifactId>spi-pipeline</artifactId>
+            <version>${spi.pipeline.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
